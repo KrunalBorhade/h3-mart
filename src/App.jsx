@@ -1,11 +1,16 @@
 
 import './App.css';
+import { Header } from './components/Header';
+import { CoinCapData } from './components/CoinCapData';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h3>CoinCap</h3>
-    </div>
+    <Header />
+    <CoinCapData />
+    <Footer />
+  </div>
   );
 }
 

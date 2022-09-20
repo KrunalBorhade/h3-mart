@@ -1,0 +1,14 @@
+.footerFlex{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgb(117, 180, 236) 50%, rgb(109, 179, 241) 50%);
+}
+
+p{
+    cursor: pointer;
+}
+h3{
+    cursor: pointer;
+}
